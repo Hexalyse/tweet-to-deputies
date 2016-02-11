@@ -29,7 +29,7 @@ def send_tweet(deputy_name, message):
     # in detail. The only information we have is 2400 tweets/day maximum, which is approximately one tweet every 36s.
     # UPDATE : apparently Twitter can detect it's an automated status when waiting for less than a minute.
     # Try changing these values until it works. (I set it to 2 to 4 minutes between each tweet, it should be okay)
-    wait_time = random.randrange(120 * 10, 240 * 10) / float(10)
+    wait_time = random.randrange(90 * 10, 180 * 10) / float(10)
     time.sleep(wait_time)
 
 
