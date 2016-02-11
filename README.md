@@ -1,4 +1,4 @@
-# Auto tweet absent French deputies
+# Script de tweet automatique aux députés absents lors de votes importants
 
 *Attention, ce script est une ébauche créée en 30 minutes, il est loin d'être complet et ne contient aucune gestion d'erreur.*
 
