@@ -4,7 +4,7 @@
 
 Suite à la lecture de [cet article](http://www.liberation.fr/france/2016/02/09/etat-d-urgence-demandez-a-votre-depute-pourquoi-il-n-a-pas-vote-lundi_1432146), et vu la quantité considérable de députés absents, je me suis dit "et pourquoi ne pas automatiser l'envoi des tweets ?".
 
-C'est le but de ce script : tweeter un message à l'ensemble des députés absents lors du vote qui possèdent un compte Twitter.
+C'est le but de ce script : tweeter un message à l'ensemble des députés absents lors du vote.
 
 ## Prérequis techniques
 Il vous faudra une installation fonctionnelle de Python, ainsi que les librairies suivantes :
