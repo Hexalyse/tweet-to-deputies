@@ -6,6 +6,8 @@ Suite à la lecture de [cet article](http://www.liberation.fr/france/2016/02/09/
 
 C'est le but de ce script : tweeter un message à l'ensemble des députés absents lors du vote.
 
+**NB: La liste de députés fournie ainsi que le message prédéfini correspond à la liste fournie dans l'article de Libération visible ci-dessus.** Vous pouvez bien évidemment modifier les fichiers `twitter-accounts-deputes-femmes.txt` et `twitter-accounts-deputes-hommes.txt` ainsi que les messages envoyés, selon vos besoin.
+
 ### Prérequis techniques
 
 Il vous faudra une installation fonctionnelle de Python, ainsi que les librairies suivantes :
