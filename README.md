@@ -11,7 +11,7 @@ Il vous faudra une installation fonctionnelle de Python, ainsi que les librairie
 * python-twitter
 * requests_oauthlib (si vous utilisez le script pour obtenir automatiquement votre Token d'accès, ce qui est optionnel)
 
-## Ce dont vous aurez besoin
+## Ce dont vous aurez besoin avant de lancer le script
 
 Pour faire fonctionner ce script, il vous faudra mettre à jour 4 lignes dans le fichier `auto-tweet.py`:
 
@@ -25,4 +25,7 @@ Pour obtenir ces 4 "clés", il vous faudra procéder comme suit :
 * Une fois ces 2 clés obtenues, lancez le script `get_access_token.py` qui vous permettra d'obtenir le "Token" et le "Token Secret". Vous pouvez également faire ça à la main sur la page de gestion de vos Consumer keys.
 
 
-Vous n'avez plus qu'à renseigner ces 4 valeurs dans le fichier, et à lancer le script ! Enjoy :)
+**Vous n'avez plus qu'à renseigner ces 4 valeurs dans le fichier, et à lancer le script ! Enjoy :)**
+
+## Contribution
+Ce script a été créé par [@Hexalyse](https://github.com/Hexalyse/).
