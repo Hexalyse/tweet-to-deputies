@@ -53,4 +53,4 @@ Il semblerait que même en respectant les limites d'envoi de tweet de Twitter, T
 Je suis donc passé d'environ 30-40 secondes entre chaque tweet à un temps d'attente de 2 à 4 minutes entre chaque tweet, et cela semble fonctionner.
 
 ### Contribution
-Ce script a été créé par [@Hexalyse](https://github.com/Hexalyse/).
+Ce script a été créé par [@Hexalyse](https://github.com/Hexalyse/). (Twitter: [@Hexalyse](https://twitter.com/Hexalyse))
