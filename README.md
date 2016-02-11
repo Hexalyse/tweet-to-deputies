@@ -21,9 +21,10 @@ Pour faire fonctionner ce script, il vous faudra mettre à jour 4 lignes dans le
                       access_token_secret='twitterTokenSecret')
                       
 Pour obtenir ces 4 "clés", il vous faudra procéder comme suit :
-* Allez sur https://apps.twitter.com/app/ pour créer une nouvelle application développeur. Cela vous permettra d'obtenir votre "Consumer Key" et votre "Consumer Secret"
-* Une fois ces 2 clés obtenues, lancez le script `get_access_token.py` qui vous permettra d'obtenir le "Token" et le "Token Secret". Vous pouvez également faire ça à la main sur la page de gestion de vos Consumer keys.
+* Allez sur la page https://apps.twitter.com/app/ pour créer une nouvelle application développeur. Cela vous permettra d'obtenir votre "Consumer Key" et votre "Consumer Secret"
+* Une fois l'application créée,vous pouvez générer un token d'accès dans l'onglet "Keys and Access Tokens" de la gestion de votre application. Alternativement, vous pouvez aussi lancer le script `get_access_token.py` qui vous permettra d'obtenir le "Token" et le "Token Secret".
 
+*Pour ceux qui préfèrent un tutoriel en image, en voici un en anglais : http://www.slickremix.com/docs/how-to-get-api-keys-and-tokens-for-twitter/ *
 
 **Vous n'avez plus qu'à renseigner ces 4 valeurs dans le fichier, et à lancer le script ! Enjoy :)**
 
