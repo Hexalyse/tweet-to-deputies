@@ -11,6 +11,18 @@ Il vous faudra une installation fonctionnelle de Python, ainsi que les librairie
 * python-twitter
 * requests_oauthlib (si vous utilisez le script pour obtenir automatiquement votre Token d'accès, ce qui est optionnel)
 
+Vous pouvez installer ces script avec les commandes suivantes :
+
+    pip install python-twitter
+    pip install requests_oauthlib
+
+## Installation
+Pour obtenir le script, rien de plus simple :
+    
+    git clone https://github.com/Hexalyse/tweet-to-deputies.git
+    
+Et vous n'avez plus qu'à éditer le fichier `auto-tweet.py` comme décrit ci-dessous avant de l'exécuter.
+
 ## Ce dont vous aurez besoin avant de lancer le script
 
 Pour faire fonctionner ce script, il vous faudra mettre à jour 4 lignes dans le fichier `auto-tweet.py`:
