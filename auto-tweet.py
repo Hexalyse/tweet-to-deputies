@@ -24,10 +24,12 @@ message_femme = "Pourquoi n'étiez-vous pas présente lundi à l'Assemblée pour
 def send_tweet(deputy_name, message):
     status = api.PostUpdate(".@" + deputy_name + " " + message)
     print("Tweet envoyé à @" + deputy)
-    # This next line gives a random number between 25 and 40
+    # This next line gives a random number between 40 and 120
     # I decided to use this waiting interval because Twitter does not document their rate limiting for status update
     # in detail. The only information we have is 2400 tweets/day maximum, which is approximately one tweet every 36s.
-    wait_time = random.randrange(25 * 10, 40 * 10) / float(10)
+    # UPDATE : apparently Twitter can detect it's an automated status when waiting for less than a minute.
+    # Try changing these values until it works. (I set it to 2 to 4 minutes between each tweet, it should be okay)
+    wait_time = random.randrange(120 * 10, 240 * 10) / float(10)
     time.sleep(wait_time)
 
 

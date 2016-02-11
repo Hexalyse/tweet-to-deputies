@@ -48,9 +48,8 @@ Pour obtenir ces 4 "clés", il vous faudra procéder comme suit :
 
 ### Délai d'envoi des tweets
 
-Afin de ne pas vous retrouver avec votre compte Twitter limité pendant quelques heures, j'ai volontairement défini un interval d'envoi de tweet assez long.
-
-Pour informations, j'ai simplement pris la limite journalière (2400 tweets envoyés), ce qui donne un tweet toutes les 36s. J'ai donc défini un temps d'attente de 25 à 40 secondes entre chaque envoi (afin d'obtenir un comportement plus "humain"), ce qui devrait être largement en dessous des quotas par demi-heure, sûrement beaucoup plus élevés que 1 tweet/36s.
+Il semblerait que même en respectant les limites d'envoie de tweet de Twitter, Twitter réussisse à détecter qu'il s'agit d'un envoi automatisé.
+Je suis donc passé d'environ 30-40 seconde entre chaque tweet à un temps d'attente de 2 à 4 minutes entre chaque tweet, et cela semble fonctionner.
 
 ### Contribution
 Ce script a été créé par [@Hexalyse](https://github.com/Hexalyse/).
