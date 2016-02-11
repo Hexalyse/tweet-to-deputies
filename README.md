@@ -8,6 +8,8 @@ C'est le but de ce script : tweeter un message à l'ensemble des députés absen
 
 **NB: La liste de députés fournie ainsi que le message prédéfini correspond à la liste fournie dans l'article de Libération visible ci-dessus.** Vous pouvez bien évidemment modifier les fichiers `twitter-accounts-deputes-femmes.txt` et `twitter-accounts-deputes-hommes.txt` ainsi que les messages envoyés, selon vos besoin.
 
+Un compte de test a été créé pour l'occasion. Vous pouvez voir le script en action ici (il devrait prendre à peu près 3 heures pour finir sa tâche): https://twitter.com/AlexLeRelou
+
 ### Prérequis techniques
 
 Il vous faudra une installation fonctionnelle de Python, ainsi que les librairies suivantes :
